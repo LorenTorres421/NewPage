@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pag.css">
 </head>
 <body>
     <header>
@@ -13,13 +13,20 @@
     </header>
 
     <main>
-        <a class="boton-ancho">INICIO SESION</a>
-        <a class="boton-ancho">SUSCRIBETE AHORA</a>
+        <form id="formulario">
+            <label>Usuario
+                <input type="text" name="input1" id="input" required>
+            </label>
+            <label>Clave
+                <input type="text" name="input2" id="input" required> 
+            </label>
+            <button id="ingresar">Ingresar</button>
+            <button id="olv-contraseña">Olvidé mi contraseña</button>
+        </form>
     </main>
     <footer>
         <p>MOTOGP-2024</p>
     </footer>
-
-    
 </body>
 </html>
+

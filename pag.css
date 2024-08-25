@@ -1,0 +1,92 @@
+header{
+    margin-top: 5px;
+    margin-left: 0px;
+    display: flex;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-size-adjust: medium;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+body{
+    background-image:  url(https://resources.dorna.com/landings/backgrounds/4/7/47c09570-5db5-11ec-b636-0167f6a57ba1/bg-landing-vp-2024-desktop-v3.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;  
+    margin-top: auto;
+    img {
+        display: block;
+        margin: 0px;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #575757;
+    margin-top: 5px;
+}
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(54, 18, 18);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: rgb(54, 18, 18);
+}
+#olv-contraseña {
+    background-color: #000000;
+}
+#olv-contraseña:hover {
+    background-color: rgb(54, 18, 18);
+}
+.boton-ancho{
+    text-align: center;
+    background-color: #121a31;
+    border-radius: 4px;
+    color: #e8eaed;
+    padding: 10px;
+}
+
+.boton{
+    border: 1px solid rgb(54, 18, 18);
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+    width: 200px;
+    background-color: rgb(75, 9, 14);
+}
+
+
+main{
+    flex-direction: column;
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    margin: 60px;
+}
+
+footer{
+    display: flex;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    gap: 20px;
+    padding: 40px;
+}
