@@ -3,3 +3,4 @@ botonRojo.addEventListener("click",()=>{
     console.log("algo")
     botonRojo.style.color = "red"
 });
+

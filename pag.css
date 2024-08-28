@@ -15,7 +15,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;  
     margin-top: auto;
-    img {
+    .img {
         display: block;
         margin: 0px;
     }
