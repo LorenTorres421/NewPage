@@ -14,11 +14,7 @@ body{
     background-image:  url(https://resources.dorna.com/landings/backgrounds/4/7/47c09570-5db5-11ec-b636-0167f6a57ba1/bg-landing-vp-2024-desktop-v3.jpg);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;  
-    margin-top: auto;
-    img {
-        display: block;
-        margin: 0px;
-    }
+    margin-top: auto
 }
 
 a{
@@ -45,7 +41,7 @@ a{
     font-size: small;
     text-align: center;
     width: 200px;
-    background-color: rgb(75, 9, 14);
+    background-color: rgb(85, 30, 35);
 }
 
 
@@ -54,7 +50,7 @@ main{
     display: flex;
     width: 500px;
     gap: 10px;
-    margin: 60px;
+    margin: 110px;
 }
 
 
@@ -67,7 +63,8 @@ footer{
     display: flex;
     background-color: #333;
     color: white;
+    margin-top: auto;
     text-align: center;
-    gap: 20px;
-    padding: 40px;
-}
+    gap: 10px;
+    justify-content: space-between;
+    }

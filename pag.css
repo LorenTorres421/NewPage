@@ -77,16 +77,17 @@ button:hover {
 main{
     flex-direction: column;
     display: flex;
-    width: 500px;
+    width: 520px;
     gap: 10px;
-    margin: 60px;
+    margin: 180px;
 }
 
 footer{
     display: flex;
     background-color: #333;
     color: white;
+    margin-top: auto;
     text-align: center;
-    gap: 20px;
-    padding: 40px;
+    gap: 10px;
+    justify-content: space-between;
 }
