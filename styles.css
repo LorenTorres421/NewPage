@@ -3,7 +3,7 @@ header{
     margin-left: 0px;
     display: flex;
     background-color: #333;
-    color: white;
+    color: rgb(203, 179, 179);
     text-align: center;
     text-size-adjust: medium;
     padding: 5px;
@@ -13,6 +13,8 @@ header{
 body{
     background-image:  url(https://resources.dorna.com/landings/backgrounds/4/7/47c09570-5db5-11ec-b636-0167f6a57ba1/bg-landing-vp-2024-desktop-v3.jpg);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
     color: white;  
     margin-top: auto;
     min-height: 100vh;
