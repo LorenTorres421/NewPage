@@ -18,10 +18,7 @@ body{
     color: white;  
     margin-top: auto;
     min-height: 100vh;
-    .img {
-        display: block;
-        margin: 0px;
-    }
+    justify-content: space-between;
 }
 
 a{
