@@ -1,74 +1,79 @@
-header{
-    margin-top: 5px;
+header {
+    justify-content: space-between;
+    margin-top: 0px;
     margin-left: 0px;
     display: flex;
-    background-color: #333;
-    color: rgb(203, 179, 179);
-    text-align: center;
-    text-size-adjust: medium;
-    padding: 5px;
-    justify-content: space-between;
+    background-color: hsl(0, 0%, 20%);
+    color: rgb(224, 212, 212);
+    padding: 5px 0px;
+    text-align: center;   
 }
 
-body{
-    background-image:  url(https://resources.dorna.com/landings/backgrounds/4/7/47c09570-5db5-11ec-b636-0167f6a57ba1/bg-landing-vp-2024-desktop-v3.jpg);
+body {
+    background-image: url(https://resources.dorna.com/landings/backgrounds/4/7/47c09570-5db5-11ec-b636-0167f6a57ba1/bg-landing-vp-2024-desktop-v3.jpg);
+    background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
-    color: white;  
-    margin-top: auto;
+    color: white;
+    margin: 0;
     min-height: 100vh;
     justify-content: space-between;
+    background-position: center; 
 }
 
-a{
+a {
     flex-direction: column;
-    font-size: x-large;
+    font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: white;
-
 }
 
-.boton-ancho{
+.boton-ancho {
     text-align: center;
     background-color: #121a31;
-    border-radius: 4px;
+    border-radius: 3px;
     color: #e8eaed;
-    padding: 10px;
+    padding: 8px; 
+    margin: 8px 0;
 }
 
-.boton{
+.boton {
     border: 1px solid rgb(54, 18, 18);
     text-transform: uppercase;
-    padding: 10px;
-    font-size: small;
+    padding: 15px;
+    font-size: medium;
     text-align: center;
     width: 200px;
     background-color: rgb(85, 30, 35);
+    margin: 10px auto; 
 }
 
-
-main{
+main {
     flex-direction: column;
     display: flex;
-    width: 500px;
-    gap: 10px;
-    margin: 110px;
+    width: 600px;
+    gap: 20px; 
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px; 
 }
 
-
-.hero-text{
-    font-size: 40px;
+.hero-text {
+    font-size: 3em; 
     font-weight: bold;
+    text-align: center;
 }
 
-footer{
+footer {
     display: flex;
     background-color: #333;
     color: white;
-    margin-top: auto;
+    padding: 5px 10px;
     text-align: center;
-    gap: 10px;
+    gap: 20px;
     justify-content: space-between;
-    }
+}
